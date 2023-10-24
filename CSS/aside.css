@@ -1,0 +1,59 @@
+aside {
+    width: 27%;
+    height: 1582px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.advertise1 {
+    width: 100%;
+    height: 848px;
+    background-color: #C8C4C4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 30px;
+}
+
+.advertise1_h2-modifier {
+    font-family: 'Koh Santepheap', serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #A14141;
+}
+
+.advertise1_p-modifier {
+    font-family: 'Life Savers', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.advertise2 {
+    width: 100%;
+    height: 644px;
+    background-color: #C7EFCE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+@media only screen and (max-width: 768px) {
+    aside {
+        width: 0px;
+        height: 0px;
+    }
+
+    .advertise1_h2-modifier {
+        font-size: 0px;
+    }
+
+    .advertise1_p-modifier {
+        font-size: 0px;
+    }
+}

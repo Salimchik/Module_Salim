@@ -1,0 +1,17 @@
+main {
+    display: flex;
+    width: 90%;
+    height: 2336px;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        height: 2150px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    main {
+        height: 2200px;
+    }
+}

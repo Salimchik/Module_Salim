@@ -1,0 +1,57 @@
+.section2 {
+    width: 94.3%;
+    height: 564px;
+    background-color: #DBB4B4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+
+.section2_h2-modifier {
+    font-family: 'Koh Santepheap', serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #521111;
+    margin-top: 30px;
+}
+
+.section2_bio_pic {
+    width: 180px;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.section2_bio_p {
+    font-family: 'Life Savers', serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .section2 {
+        height: 400px;
+    }
+
+    .section2_bio_p {
+        font-size: 25px;
+    }
+
+    .section2_bio_pic {
+        width: 130px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .section2 {
+        height: 555px;
+        gap: 3px;
+    }
+
+    .section2_bio_p {
+        font-size: 14px;
+    }
+}
